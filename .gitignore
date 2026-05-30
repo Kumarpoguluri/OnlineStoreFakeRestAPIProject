@@ -1,0 +1,16 @@
+#python
+__pycache__/
+*.pyc
+# virtual Evni
+venv
+#pycharm
+.idea
+#reports
+allure-report/
+allure-results/
+report/
+#logs
+logs/
+#os files
+.DS_store
+Thumbs.db

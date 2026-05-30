@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"39e60c42f6926f1ece5467fd1765a278","name":"test_product_tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":10,"unknown":0,"total":10}},{"uid":"2c20fac3bc465b1b0ffd71f3218dc579","name":"test_product_data_driventesting","statistic":{"failed":0,"broken":0,"skipped":0,"passed":5,"unknown":0,"total":5}}]}
