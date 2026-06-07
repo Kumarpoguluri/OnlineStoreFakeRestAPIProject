@@ -1,16 +1,27 @@
-#python
+# Python cache
 __pycache__/
 *.pyc
-# virtual Evni
-venv
-#pycharm
-.idea
-#reports
+
+# Virtual Environment
+venv/
+.venv/
+
+# PyCharm
+.idea/
+
+# Reports
 allure-report/
 allure-results/
-report/
-#logs
+reports/
+--clean/
+
+# Logs
 logs/
-#os files
-.DS_store
+*.log
+
+# OS files
+.DS_Store
 Thumbs.db
+
+# Pytest cache
+.pytest_cache/
