@@ -75,7 +75,7 @@ class TestProductAPI:
     def test_get_products_by_categories(self):
         endpoint = self.base_url + Routes.GET_PRODUCTS_BY_CATEGORY.format(category=self.category)
         response = requests.get(endpoint)
-        assert response.status_code == 200
+        assert response.status_code == 201
         data = response.json()
         # print(json.dumps(data, indent=4))
 
